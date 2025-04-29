@@ -13,7 +13,7 @@ phases:
     commands:
       - echo Building application...
       - npm run build
-      - chmod +x scripts/*.sh
+      - chmod +x ../scripts/*.sh
   post_build:
     commands:
       - echo Build completed.
