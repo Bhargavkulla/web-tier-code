@@ -17,11 +17,13 @@ phases:
   post_build:
     commands:
       - echo Build completed.
+      - ls -R web-tier/build
+      - find web-tier/build
 
 artifacts:
   files:
     - appspec.yml
     - scripts/**
     - nginx.conf
-    - web-tier/build/**  # Output folder from React build
+    - web-tier/build/**/*  # Output folder from React build
   discard-paths: no
