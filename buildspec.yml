@@ -17,7 +17,6 @@ phases:
   post_build:
     commands:
       - echo Build completed.
-      - find web-tier/build
 
 artifacts:
   files:
