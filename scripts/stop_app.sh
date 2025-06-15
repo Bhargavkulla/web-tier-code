@@ -1,3 +1,4 @@
+# or use VS Code or Notepad++
 #!/bin/bash
 
 echo "Stopping web tier application (safe mode)"
